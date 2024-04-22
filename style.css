@@ -1,0 +1,333 @@
+:root{
+    --fundo-1:rgb(27, 27, 27);
+    --fundo-2:rgb(41, 41, 41);
+    --fundo-3:rgb(109, 107, 107) ;
+    --fundo-4:rgba(82, 26, 0, 0.689) ;
+    --fundo-5:rgba(63, 3, 3, 0.749) ;
+    --fundo-6:rgba(158, 93, 39, 0.844) ;
+    --fundo-7:rgba(193, 127, 73, 0.54) ;
+    --fundo-8:rgba(27, 27, 27, 0.562);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    box-sizing: border-box;
+    font-family: "Montserrat Alternates", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    background: rgb(240, 209, 209);
+  
+}
+
+
+header{
+    display: flex;
+    box-shadow: 0 1px 7px 0 rgb(32 33 36 / 10%);
+    align-items: center;
+    background:rgba(255, 134, 152, 0.907);
+ 
+    
+}
+
+.icon{
+    display: flex;
+    
+    margin-right: 20px;
+}
+
+.icon i {
+    font-size: 35px;
+    color: var(--fundo-2);
+    transition: color 0.5s;
+}
+
+.icon i:hover{
+    color:rgba(253, 235, 235, 0.978) ;
+}
+
+#menu-icon{
+    font-size: 35px;
+    height: 35px;
+    width: 35px;
+    background: var(--fundo-7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    border-radius: 10%;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+
+
+}
+
+
+
+.navigation{
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.logo{
+
+    width: 30rem;
+    height: auto;
+    display: flex;
+    font-family: "Dancing Script";
+    color: rgb(41, 41, 41);
+    margin-left: 3rem;
+
+}
+
+.link{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: var(--fundo-2);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.5s;
+    gap: 50%;
+    
+}
+
+.link:hover{
+    color:rgba(237, 223, 223, 0.978);
+    font-size: 15px;
+}
+
+.pag{
+    padding: 60px 14% 70px;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(./imagens/fundo1.jpg);
+    background-size: cover;
+   
+}
+
+.texto h1{
+    font-family: "Leckerli One",cursive;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    line-height: 1.3;
+    margin-bottom:25px ;
+}
+
+.texto p{
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    line-height: 33px;
+    margin-bottom: 60px;
+}
+
+.btn{
+    padding: 20px 35px;
+    background: rgb(255, 134, 152);
+    color: rgb(240, 240, 240);
+    font-size: 14px;
+    border-radius: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .50s ease;
+    
+}
+
+.btn:hover{
+    background: rgb(39, 39, 39);
+    color: aliceblue;
+}
+
+.quadros h2{
+ text-align: center;
+ font-size: 30px;
+ font-weight: 800;
+ color: rgb(52, 52, 52);
+ margin-top: 4%;
+}
+
+.new-content{
+  display: flex;
+  margin-top: 4%;
+  margin-left: 5%;
+  
+  text-align: center;
+}
+
+.new-content img{
+
+    width: 90%;
+    display: block;
+    transition: transform 0.5s;
+    cursor: pointer;
+    
+}
+
+
+
+.new-content img:hover{
+    transform: scale(1.1);
+}
+
+.row h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all .50s ease;
+}
+
+.row h4:hover{
+    color: rgb(253, 28, 28);
+}
+
+.row h5{
+    color: var(--fundo-8);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.prontos .text2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(52, 52, 52);
+    margin-top: 5%;
+
+}
+
+.feed{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 5%;
+    gap: 2rem;
+        
+    
+}
+
+.feedimg{
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.feedimg img{
+    width: 100%;
+    display: block;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.feedimg:hover img{
+    transform: scale(1.1);
+}
+
+.feedimg h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all .50s ease;
+
+}
+
+.feedimg h4:hover{
+    color: rgb(253, 28, 28);
+}
+
+.feedimg h5{
+    color: var(--fundo-8);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+    
+.duvidas h2{
+text-align: center;
+ font-size: 30px;
+ font-weight: 800;
+ color: rgb(52, 52, 52);
+ margin-top: 5%;
+
+
+}
+
+.duvidas{
+    background: rgba(151, 72, 72, 0.308);
+    margin-left: 4%;
+    margin-right: 3%;
+    border-radius: 5%;
+    margin-bottom: 5%;
+}
+
+.duvidas .text3{
+    margin-top: 7%;
+    margin-left: 4%;
+    
+}
+
+.duvidas span{
+    font-size: 20px;
+}
+
+.produtos{
+    background: rgba(151, 72, 72, 0.308);
+    margin-left: 4%;
+    margin-right: 3%;
+    border-radius: 3.5%;
+    margin-bottom: 5%;
+
+}
+
+.contato {
+	background-color: #e85f5f;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.contato ul{
+    list-style: none;
+}
+
+.cont{
+    text-decoration: none;
+    color: rgb(44, 43, 44);
+    font-size: 17px;
+}
+
+
+
+.scroll-top{
+    position: fixed;
+    bottom: 2.3rem;
+    right: 2.3rem;
+}
+
+.scroll-top i{
+    background: var(--fundo-8);
+    color: #fff;
+    font-size: 22px;
+    padding: 12px;
+    border-radius: 30px;
+    transition: all .50s ease;
+    
+}
+
+.scroll-top i:hover{
+    background: var(--fundo-1);
+}
